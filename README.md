@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## 📄 `README.md` (Ready to Paste)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```md
+# 🛠️ ServiceBooking-SJ
+
+A modern service booking platform built using **Next.js** to allow users to browse services, make payments, and manage bookings easily.
+
+## 🚀 Live Demo
+
+🔗 Deployed on **[Vercel](https://servicebooking-sj.vercel.app/)**
+
+
+---
+
+## 📌 Features
+
+- 💻 Built using **Next.js App Router**
+- 🎨 Styled with **Tailwind CSS**
+- 💼 Dynamic routing with query parameters (`useSearchParams`)
+- ✅ Payment Success page using **client components and Suspense**
+- 🔁 Responsive layout with consistent top heading bar
+- 🌐 Deployed on **Vercel** with server/client separation
+
+---
+
+## 📦 Tech Stack Used
+
+| Name            | Purpose                           |
+|-----------------|-----------------------------------|
+| **Next.js**     | React framework for full-stack app |
+| **Tailwind CSS**| Utility-first styling              |
+| **Vercel**      | Deployment platform                |
+| **React Hooks** | `useSearchParams()` for dynamic query access |
+| **App Router**  | Modern file-based routing in Next.js |
+
+---
+
+## 🛠️ Folder Structure (Simplified)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+app/
+├─ layout.js
+├─ page.jsx (Home page)
+└─ payment-success/
+├─ page.jsx              # Suspense wrapper
+└─ PaymentSuccessPage.jsx  # Client component using useSearchParams
+public/
+└─ logo.png (optional)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧪 How to Run Locally
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git clone https://github.com/Adit122022/servicebooking-sj.git
+cd servicebooking-sj
+npm install
+npm run dev
+````
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+App will run at `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏁 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Just push your main branch to GitHub
+* Import repo in [Vercel](https://vercel.com/)
+* Vercel auto-builds and deploys your app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+Made with ❤️ by Aditya Sharma
+
+```
+
+---
+
+## ✅ What You Used in the Project
+
+Here's a summary of what your app uses:
+
+- ✅ **Next.js App Router**
+- ✅ `useSearchParams()` from `next/navigation`
+- ✅ **Suspense** to wrap client components
+- ✅ `Tailwind CSS` for styling
+- ✅ **Vercel** for deployment
+- ✅ A consistent layout with header
+- ✅ `Link` from `next/link` for routing
+
+```
